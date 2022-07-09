@@ -77,7 +77,6 @@ public class YoutubeSub {
         for (int j = 0; j < replaceWords.length; j++) {
             if (subscript.contains(swear[j])) {
                 subscript = subscript.replace(swear[j], replaceWords[j]);
-                System.out.println(subscript);
             }
         }
 
